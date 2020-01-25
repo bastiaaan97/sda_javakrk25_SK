@@ -6,6 +6,7 @@ public class Zad_14_histogram {
 
     /**
      * Stwórz program który generuje histogram losowych liczb
+     * test changes - master
      *
      * @param args
      */
@@ -14,6 +15,7 @@ public class Zad_14_histogram {
     public static void main(String[] args) {
         int[] histogram = new int[10];
         Random random = new Random();
+        //other comment
 
         for (int i = 0; i < 1_000_000; i++) {
             int randomNumber = random.nextInt(10);
