@@ -10,6 +10,7 @@ public class Zad_14_histogram {
      * @param args
      */
 
+
     public static void main(String[] args) {
         int[] histogram = new int[10];
         Random random = new Random();
